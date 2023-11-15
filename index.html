@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+        <title>Lim</title>
+    </head>
+    <body>
+        <div id="container">
+
+            <!-- Logo e scritta -->
+            <header>
+                <img id="logo" src="logo.png">
+                <h1 id="titolo">Taking Booleaners from A to B</h1>
+            </header>
+
+            <!--Nav Prenotazione-->
+            <nav>
+                <input type="button" value="Prenota">
+                <input type="button" value="Termina Prenotazione">
+                <input type="button" value="Accendi luci">
+            </nav>
+
+            <!-- Lista Monopattini -->
+            <main>
+
+                <!-- Monopattino Gino22 -->
+                <section class="monopattino">
+                    <input type="checkbox"> 
+                    <h2 class="nome_monopattino">Monopattino Gino22</h2>
+                    <div class="distanza">&#8594 via Guadalametri - a 220 metri da te</div>
+                    <div>Stato carica:</div>
+                    <div class="carica" id="mid"></div>
+                </section>
+
+                <!-- Monopattino Mike24 -->
+                <section class="monopattino">
+                    <input type="checkbox">
+                    <h2 class="nome_monopattino">Monopattino Mike24</h2>
+                    <div class="distanza">&#8594 via Ricciardoni - a 420 metri da te</div>
+                    <div>Stato carica:</div>
+                    <div class="carica" id="full"></div>
+                </section>
+
+                <!-- Monopattino Fede154 -->
+                <section class="monopattino">
+                    <input type="checkbox">
+                    <h2 class="nome_monopattino">Monopattino Fede154</h2>
+                    <div class="distanza">&#8594 via Mentarini - a 490 metri da te</div>
+                    <div>Stato carica:</div>
+                    <div class="carica" id="low"></div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
